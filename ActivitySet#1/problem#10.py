@@ -1,5 +1,4 @@
 # Dictionaries
-
 filename = "dataset/mbox-short.txt"
 name = input("Enter file:")
 if len(name) < 1:
@@ -15,4 +14,6 @@ for line in handle:
         mail[email]=1+mail[email]
     else:
         mail.update({email:1})
+
+
 
