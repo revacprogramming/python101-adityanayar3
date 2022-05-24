@@ -1,9 +1,12 @@
 
 def add(a, b):
+  c=a+b
+  return c
     pass  # ...
 
 
 def output(a, b, sum):
+  print('Sum is',sum)
     pass  # ...
 
 
